@@ -32,8 +32,8 @@ var config = [
       latitude: 42.3736158,
       longitude: -71.10973349999999,
       speed_unit: "mph",
-      file: "https://storage.googleapis.com/insightlane-showcase/data_mode/cambridge/preds_viz_bike.geojson",
-      crashes: "https://storage.googleapis.com/insightlane-showcase/data_mode/cambridge/crashes_rollup_bike.geojson"
+      file: "data/cambridge/preds_viz_bike.geojson",
+      crashes: "data/cambridge/crashes_rollup_bike.geojson"
   },
   {
       id: "cambridge_pedestrian",
@@ -41,8 +41,8 @@ var config = [
       latitude: 42.3736158,
       longitude: -71.10973349999999,
       speed_unit: "mph",
-      file: "https://storage.googleapis.com/insightlane-showcase/data_mode/cambridge/preds_viz_pedestrian.geojson",
-      crashes: "https://storage.googleapis.com/insightlane-showcase/data_mode/cambridge/crashes_rollup_pedestrian.geojson"
+      file: "data/cambridge/preds_viz_pedestrian.geojson",
+      crashes: "data/cambridge/crashes_rollup_pedestrian.geojson"
   },
   {
       id: "cambridge_vehicle",
@@ -50,8 +50,8 @@ var config = [
       latitude: 42.3736158,
       longitude: -71.10973349999999,
       speed_unit: "mph",
-      file: "https://storage.googleapis.com/insightlane-showcase/data_mode/cambridge/preds_viz_vehicle.geojson",
-      crashes: "https://storage.googleapis.com/insightlane-showcase/data_mode/cambridge/crashes_rollup_vehicle.geojson"
+      file: "data/cambridge/preds_viz_vehicle.geojson",
+      crashes: "data/cambridge/crashes_rollup_vehicle.geojson"
   },
   {
     name: "Somerville, Massachusetts, USA (pedestrian)",
@@ -59,8 +59,8 @@ var config = [
     latitude: 42.3876,
     longitude: -71.0995,
     speed_unit: "mph",
-    file: "https://storage.googleapis.com/insightlane-showcase/data_mode/somerville/preds_viz_pedestrian.geojson",
-    crashes: "https://storage.googleapis.com/insightlane-showcase/data_mode/somerville/crashes_rollup_pedestrian.geojson"
+    file: "data/somerville/preds_viz_pedestrian.geojson",
+    crashes: "data/somerville/crashes_rollup_pedestrian.geojson"
   },
   {
       name: "Somerville, Massachusetts, USA (bike)",
@@ -68,8 +68,8 @@ var config = [
       latitude: 42.3876,
       longitude: -71.0995,
       speed_unit: "mph",
-      file: "https://storage.googleapis.com/insightlane-showcase/data_mode/somerville/preds_viz_bike.geojson",
-      crashes: "https://storage.googleapis.com/insightlane-showcase/data_mode/somerville/crashes_rollup_bike.geojson"
+      file: "data/somerville/preds_viz_bike.geojson",
+      crashes: "data/somerville/crashes_rollup_bike.geojson"
   },
   {
       name: "Somerville, Massachusetts, USA (vehicle)",
@@ -77,8 +77,8 @@ var config = [
       latitude: 42.3876,
       longitude: -71.0995,
       speed_unit: "mph",
-      file: "https://storage.googleapis.com/insightlane-showcase/data_mode/somerville/preds_viz_vehicle.geojson",
-      crashes: "https://storage.googleapis.com/insightlane-showcase/data_mode/somerville/crashes_rollup_vehicle.geojson"
+      file: "data/somerville/preds_viz_vehicle.geojson",
+      crashes: "data/somerville/crashes_rollup_vehicle.geojson"
   },
   {
       id: "dc",
@@ -86,8 +86,8 @@ var config = [
       latitude: 38.9071923,
       longitude: -77.0368707,
       speed_unit: "mph",
-      file: "https://storage.googleapis.com/insightlane-showcase/data_mode/dc/preds_viz_bike.geojson",
-      crashes: "https://storage.googleapis.com/insightlane-showcase/data_mode/dc/crashes_rollup_bike.geojson"
+      file: "data/dc/preds_viz_bike.geojson",
+      crashes: "data/dc/crashes_rollup_bike.geojson"
   },
   {
       id: "dc",
@@ -95,8 +95,8 @@ var config = [
       latitude: 38.9071923,
       longitude: -77.0368707,
       speed_unit: "mph",
-      file: "https://storage.googleapis.com/insightlane-showcase/data_mode/dc/preds_viz_pedestrian.geojson",
-      crashes: "https://storage.googleapis.com/insightlane-showcase/data_mode/dc/crashes_rollup_pedestrian.geojson"
+      file: "data/dc/preds_viz_pedestrian.geojson",
+      crashes: "data/dc/crashes_rollup_pedestrian.geojson"
   },
   {
       id: "dc",
@@ -104,8 +104,8 @@ var config = [
       latitude: 38.9071923,
       longitude: -77.0368707,
       speed_unit: "mph",
-      file: "https://storage.googleapis.com/insightlane-showcase/data_mode/dc/preds_viz_vehicle.geojson",
-      crashes: "https://storage.googleapis.com/insightlane-showcase/data_mode/dc/crashes_rollup_vehicle.geojson"
+      file: "data/dc/preds_viz_vehicle.geojson",
+      crashes: "data/dc/crashes_rollup_vehicle.geojson"
   },
   {
       id: "buffalo",
@@ -113,61 +113,88 @@ var config = [
       latitude: 42.880230,
       longitude: -78.878738,
       speed_unit: "mph",
-      file: "https://storage.googleapis.com/insightlane-showcase/data_mode/buffalo/preds_viz.geojson",
-      crashes: "https://storage.googleapis.com/insightlane-showcase/data_mode/buffalo/crashes_rollup.geojson"
+      file: "data/buffalo/preds_viz.geojson",
+      crashes: "data/buffalo/crashes_rollup.geojson"
   },
   {
-      id: "brisbane",
+      id: "brisbane_bike",
       name: "Brisbane, Australia (bike)",
       latitude: -27.4697707,
       longitude: 153.0251235,
       speed_unit: "kph",
-      file: "https://storage.googleapis.com/insightlane-showcase/data_mode/brisbane/preds_viz_bike.geojson",
-      crashes: "https://storage.googleapis.com/insightlane-showcase/data_mode/brisbane/crashes_rollup_bike.geojson"
+      file: "data/brisbane/preds_viz_bike.geojson",
+      crashes: "data/brisbane/crashes_rollup_bike.geojson"
   },
   {
-      id: "brisbane",
+      id: "brisbane_pedestrian",
       name: "Brisbane, Australia (pedestrian)",
       latitude: -27.4697707,
       longitude: 153.0251235,
       speed_unit: "kph",
-      file: "https://storage.googleapis.com/insightlane-showcase/data_mode/brisbane/preds_viz_pedestrian.geojson",
-      crashes: "https://storage.googleapis.com/insightlane-showcase/data_mode/brisbane/crashes_rollup_pedestrian.geojson"
+      file: "data/brisbane/preds_viz_pedestrian.geojson",
+      crashes: "data/brisbane/crashes_rollup_pedestrian.geojson"
   },
   {
-      id: "brisbane",
+      id: "brisbane_vehicle",
       name: "Brisbane, Australia (vehicle)",
       latitude: -27.4697707,
       longitude: 153.0251235,
       speed_unit: "kph",
-      file: "https://storage.googleapis.com/insightlane-showcase/data_mode/brisbane/preds_viz_vehicle.geojson",
-      crashes: "https://storage.googleapis.com/insightlane-showcase/data_mode/brisbane/crashes_rollup_vehicle.geojson"
+      file: "data/brisbane/preds_viz_vehicle.geojson",
+      crashes: "data/brisbane/crashes_rollup_vehicle.geojson"
   },
   {
-      id: "melbourne",
+      id: "melbourne_bike",
       name: "Melbourne, Australia (bike)",
       latitude: -37.814,
       longitude: 144.96332,
       speed_unit: "kph",
-      file: "https://storage.googleapis.com/insightlane-showcase/data_mode/melbourne/preds_viz_bike.geojson",
-      crashes: "https://storage.googleapis.com/insightlane-showcase/data_mode/melbourne/crashes_rollup_bike.geojson"
+      file: "data/melbourne/preds_viz_bike.geojson",
+      crashes: "data/melbourne/crashes_rollup_bike.geojson"
   },
   {
-      id: "melbourne",
+      id: "melbourne_pedestrian",
       name: "Melbourne, Australia (pedestrian)",
       latitude: -37.814,
       longitude: 144.96332,
       speed_unit: "kph",
-      file: "https://storage.googleapis.com/insightlane-showcase/data_mode/melbourne/preds_viz_pedestrian.geojson",
-      crashes: "https://storage.googleapis.com/insightlane-showcase/data_mode/melbourne/crashes_rollup_pedestrian.geojson"
+      file: "data/melbourne/preds_viz_pedestrian.geojson",
+      crashes: "data/melbourne/crashes_rollup_pedestrian.geojson"
   },
   {
-      id: "melbourne",
+      id: "melbourne_vehicle",
       name: "Melbourne, Australia (vehicle)",
       latitude: -37.814,
       longitude: 144.96332,
       speed_unit: "kph",
-      file: "https://storage.googleapis.com/insightlane-showcase/data_mode/melbourne/preds_viz_vehicle.geojson",
-      crashes: "https://storage.googleapis.com/insightlane-showcase/data_mode/melbourne/crashes_rollup_vehicle.geojson"
+      file: "data/melbourne/preds_viz_vehicle.geojson",
+      crashes: "data/melbourne/crashes_rollup_vehicle.geojson"
+  },
+    {
+      id: "losangeles_bike",
+      name: "Los Angeles, California, USA (bike)",
+      latitude: 34.0522,
+      longitude: -118.2437,
+      speed_unit: "mph",
+      file: "data/losangeles/preds_viz_bike.geojson",
+      crashes: "data/losangeles/crashes_rollup_bike.geojson"
+  },
+    {
+      id: "losangeles_pedestrian",
+      name: "Los Angeles, California, USA (pedestrian)",
+      latitude: 34.0522,
+      longitude: -118.2437,
+      speed_unit: "mph",
+      file: "data/losangeles/preds_viz_pedestrian.geojson",
+      crashes: "data/losangeles/crashes_rollup_pedestrian.geojson"
+  },
+    {
+      id: "losangeles_vehicle",
+      name: "Los Angeles, California, USA (vehicle)",
+      latitude: 34.0522,
+      longitude: -118.2437,
+      speed_unit: "mph",
+      file: "data/losangeles/preds_viz_vehicle.geojson",
+      crashes: "data/losangeles/crashes_rollup_vehicle.geojson"
   }
 ]
