@@ -12,4 +12,5 @@ jobs:
     - name: Deploy to GitHub Pages
       uses: Cecilapp/GitHub-Pages-deploy@master
       env:
+        EMAIL:
         MAPBOX_TOKEN: ${{ secrets.MAPBOX_TOKEN }}

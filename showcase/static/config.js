@@ -5,8 +5,8 @@ var config = [
       latitude: 42.3600825,
       longitude: -71.0588801,
       speed_unit: "mph",
-      file: "https://storage.googleapis.com/insightlane-showcase/data_mode/boston/preds_viz_bike.geojson",
-      crashes: "https://storage.googleapis.com/insightlane-showcase/data_mode/boston/crashes_rollup_bike.geojson"
+      file: "data/boston/preds_viz_bike.geojson",
+      crashes: "data/boston/crashes_rollup_bike.geojson"
   },
   {
       id: "boston_pedestrian",
@@ -14,8 +14,8 @@ var config = [
       latitude: 42.3600825,
       longitude: -71.0588801,
       speed_unit: "mph",
-      file: "https://storage.googleapis.com/insightlane-showcase/data_mode/boston/preds_viz_pedestrian.geojson",
-      crashes: "https://storage.googleapis.com/insightlane-showcase/data_mode/boston/crashes_rollup_pedestrian.geojson"
+      file: "data/boston/preds_viz_pedestrian.geojson",
+      crashes: "data/boston/crashes_rollup_pedestrian.geojson"
   },
   {
       id: "boston_vehicle",
@@ -23,8 +23,8 @@ var config = [
       latitude: 42.3600825,
       longitude: -71.0588801,
       speed_unit: "mph",
-      file: "https://storage.googleapis.com/insightlane-showcase/data_mode/boston/preds_viz_vehicle.geojson",
-      crashes: "https://storage.googleapis.com/insightlane-showcase/data_mode/boston/crashes_rollup_vehicle.geojson"
+      file: "data/boston/preds_viz_vehicle.geojson",
+      crashes: "data/boston/crashes_rollup_vehicle.geojson"
   },
   {
       id: "cambridge_bike",
