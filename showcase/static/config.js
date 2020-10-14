@@ -196,5 +196,32 @@ var config = [
       speed_unit: "mph",
       file: "data/losangeles/preds_viz_vehicle.geojson",
       crashes: "data/losangeles/crashes_rollup_vehicle.geojson"
-  }
+  },
+    {
+      id: "chicago_bike",
+      name: "Chicago, Illinois, USA (bike)",
+      latitude: 41.8843,
+      longitude: -87.6324,
+      speed_unit: "mph",
+      file: "data/chicago/preds_viz_bike.geojson",
+      crashes: "data/chicago/crashes_rollup_bike.geojson"
+  },
+    {
+      id: "chicago_pedestrian",
+      name: "Chicago, Illinois, USA (pedestrian)",
+      latitude: 41.8843,
+      longitude: -87.6324,
+      speed_unit: "mph",
+      file: "data/chicago/preds_viz_pedestrian.geojson",
+      crashes: "data/chicago/crashes_rollup_pedestrian.geojson"
+  },
+    {
+        id: "chicago_vehicle",
+        name: "Chicago, Illinois, USA (vehicle)",
+        latitude: 41.8843,
+        longitude: -87.6324,
+        speed_unit: "mph",
+        file: "data/chicago/preds_viz_vehicle.geojson",
+        crashes: "data/chicago/crashes_rollup_vehicle.geojson"
+    }
 ]
