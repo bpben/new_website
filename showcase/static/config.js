@@ -223,5 +223,14 @@ var config = [
         speed_unit: "mph",
         file: "data/chicago/preds_viz_vehicle.geojson",
         crashes: "data/chicago/crashes_rollup_vehicle.geojson"
+    },
+    {
+        id: "austin",
+        name: "Austin, Texas, USA",
+        latitude: 30.266666,
+        longitude: -97.73333041,
+        speed_unit: "mph",
+        file: "data/austin/preds_viz.geojson",
+        crashes: "data/austin/crashes_rollup.geojson"
     }
 ]
