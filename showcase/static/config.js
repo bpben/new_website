@@ -232,5 +232,23 @@ var config = [
         speed_unit: "mph",
         file: "data/austin/preds_viz.geojson",
         crashes: "data/austin/crashes_rollup.geojson"
+    },
+    {
+        id: "boise",
+        name: "Boise, Idaho, USA",
+        latitude: 43.60764000000006,
+        longitude: -116.1933999999999430,
+        speed_unit: "mph",
+        file: "data/boise/preds_viz.geojson",
+        crashes: "data/boise/crashes_rollup.geojson"
+    },
+    {
+        id: "meridian",
+        name: "Meridian, Idaho, USA",
+        latitude: 43.61102000000005,
+        longitude: -116.39257999999995,
+        speed_unit: "mph",
+        file: "data/meridian/preds_viz.geojson",
+        crashes: "data/meridian/crashes_rollup.geojson"
     }
 ]
