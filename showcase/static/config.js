@@ -250,5 +250,32 @@ var config = [
         speed_unit: "mph",
         file: "data/meridian/preds_viz.geojson",
         crashes: "data/meridian/crashes_rollup.geojson"
+    },
+    {
+        id: "ada_county_vehicle",
+        name: "Ada County, Idaho, USA (vehicle)",
+        latitude: 43.60764000000006,
+        longitude: -116.19339999999994,
+        speed_unit: "mph",
+        file: "data/ada_county/preds_viz_vehicle.geojson",
+        crashes: "data/ada_county/crashes_rollup_vehicle.geojson"
+    },
+    {
+        id: "ada_county_pedestrian",
+        name: "Ada County, Idaho, USA (pedestrian)",
+        latitude: 43.60764000000006,
+        longitude: -116.19339999999994,
+        speed_unit: "mph",
+        file: "data/ada_county/preds_viz_pedestrian.geojson",
+        crashes: "data/ada_county/crashes_rollup_pedestrian.geojson"
+    },
+    {
+        id: "ada_county_bike",
+        name: "Ada County, Idaho, USA (bike)",
+        latitude: 43.60764000000006,
+        longitude: -116.19339999999994,
+        speed_unit: "mph",
+        file: "data/ada_county/preds_viz_bike.geojson",
+        crashes: "data/ada_county/crashes_rollup_bike.geojson"
     }
 ]
