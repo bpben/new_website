@@ -277,5 +277,32 @@ var config = [
         speed_unit: "mph",
         file: "data/ada_county/preds_viz_bike.geojson",
         crashes: "data/ada_county/crashes_rollup_bike.geojson"
+    },
+    {
+        id: "nyc_vehicle",
+        name: "New York, NY, USA (vehicle)",
+        latitude: 40.71455000000003,
+        longitude: -74.00713999999994,
+        speed_unit: "mph",
+        file: "data/nyc/preds_viz_vehicle.geojson",
+        crashes: "data/nyc/crashes_rollup_vehicle.geojson"
+    },
+    {
+        id: "nyc_predestrian",
+        name: "New York, NY, USA (ped)",
+        latitude: 40.71455000000003,
+        longitude: -74.00713999999994,
+        speed_unit: "mph",
+        file: "data/nyc/preds_viz_pedestrian.geojson",
+        crashes: "data/nyc/crashes_rollup_pedestrian.geojson"
+    },
+    {
+        id: "nyc_bike",
+        name: "New York, NY, USA (bike)",
+        latitude: 40.71455000000003,
+        longitude: -74.00713999999994,
+        speed_unit: "mph",
+        file: "data/nyc/preds_viz_bike.geojson",
+        crashes: "data/nyc/crashes_rollup_bike.geojson"
     }
 ]
