@@ -288,7 +288,7 @@ var config = [
         crashes: "data/nyc/crashes_rollup_vehicle.geojson"
     },
     {
-        id: "nyc_predestrian",
+        id: "nyc_pedestrian",
         name: "New York, NY, USA (ped)",
         latitude: 40.71455000000003,
         longitude: -74.00713999999994,
