@@ -1,416 +1,489 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="Ben Batorsky personal website" />
-        <meta name="author" content="Ben Batorsky" />
-        <meta property="og:image" content="assets/img/me_small_2.png" />
-        <meta property="og:title" content="Benjamin Batorsky" />
-        <meta property="og:description" content="Personal website of Benjamin Batorsky, Data Scientist" />
-        <title>Ben Batorsky - Data Scientist and nice guy</title>
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles_2.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">Ben Batorsky</a><button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded portfolio-link" data-toggle="modal" data-target="#about">About</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Selected work</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Get in touch</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="https://bpben.github.io/">Blog</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Masthead-->
-        <header class="masthead bg-image text-white text-center" id="page-top">
-            <section class="page-section portfolio" id="about_short">
-                <div class="container d-flex align-items-center flex-column">
-                    <div class="lead-2">
-                        <p>
-                            I'm a data scientist, architect and engineer interested in the stories data tell.
-                            Working across the health, marketing, infrastructure and government sectors, I've built product-oriented data teams that have had organization-wide impact.
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content="Ben Batorsky personal website"/>
+    <meta name="author" content="Ben Batorsky"/>
+    <meta property="og:image" content="assets/img/me_small_2.png"/>
+    <meta property="og:title" content="Benjamin Batorsky"/>
+    <meta property="og:description" content="Personal website of Benjamin Batorsky, Data Scientist"/>
+    <title>Ben Batorsky - Data Scientist and nice guy</title>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+          type="text/css"/>
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles_2.css" rel="stylesheet"/>
+    <script
+            type="module"
+            src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"
+    ></script>
 
-                            <p>I’m always open to hearing about interesting projects, speaking opportunities and ideas.</p>
-                        </p>
-                        <a class="btn btn-primary btn-l" href="#contact"><i class="far fa-envelope mr-2"></i>Get in touch</a>
-                    </div>
-                </div>
-            </section>
-        </header>
+</head>
+<body id="page-top">
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Ben Batorsky</a>
+        <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
+                type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded portfolio-link"
+                                                     data-toggle="modal" data-target="#about">About</a></li>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                                                     href="#portfolio">Selected work</a></li>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                                                     href="#contact">Get in touch</a></li>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                                                     href="https://bpben.github.io/">Blog</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Masthead-->
+<header class="masthead bg-image text-white text-center" id="page-top">
+    <section class="page-section portfolio" id="about_short">
+        <div class="container d-flex align-items-center flex-column">
+            <div class="lead-2">
+                <p>
+                    I'm a data scientist, architect and engineer interested in the stories data tell.
+                    Working across the health, marketing, infrastructure and government sectors, I've built
+                    product-oriented data teams that have had organization-wide impact.
 
-        <!-- Portfolio Section-->
-        <section class="page-section portfolio" id="portfolio">
-            <div class="container">
-                <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Selected work</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Grid Items-->
-                <div class="row">
-                    <!-- Portfolio Item 1-->
-                    <div class="col-sm-4 portfolio-item">
-                        <div class="portfolio-link" data-toggle="modal" data-target="#portfolioModal1">
-                            <div class="caption text-center vertical-center-row">
-                                <div class="caption-content img-centered vertical-center-row">
-                                	<h4>Forecasting and prediction</h4>
-                                	<p>Modeling, causal inference, risk evaluation</p>
-                                </div>
-                            </div>
-                            <img src="assets/img/portfolio/prediction.png" class="img-fluid" alt="image-alt">
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 2-->
-                    <div class="col-sm-4 portfolio-item">
-                        <div class="portfolio-link" data-toggle="modal" data-target="#portfolioModal2">
-                            <div class="caption text-center vertical-center-row">
-                                <div class="caption-content img-centered vertical-center-row">
-                                	<h4>Policy analysis</h4>
-                                	<p>Program evaluation, econometrics</p>
-                                </div>
-                            </div>
-                            <img src="assets/img/portfolio/policy_analysis.png" class="img-fluid" alt="image-alt">
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 3-->
-                    <div class="col-sm-4 portfolio-item">
-                        <div class="portfolio-link" data-toggle="modal" data-target="#portfolioModal3">
-                            <div class="caption text-center vertical-center-row">
-                                <div class="caption-content img-centered vertical-center-row">
-                                	<h4>Text analytics</h4>
-                                	<p>Pipelines, extraction, generation</p>
-                                </div>
-                            </div>
-                            <img src="assets/img/portfolio/text.png" class="img-fluid" alt="image-alt">
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 4-->
-                    <div class="col-sm-4 portfolio-item">
-                        <div class="portfolio-link" data-toggle="modal" data-target="#portfolioModal4">
-                            <div class="caption text-center vertical-center-row">
-                                <div class="caption-content img-centered vertical-center-row">
-                                	<h4>Training/Mentoring</h4>
-                                	<p>Education, skill development, editing</p>
-                                </div>
-                            </div>
-                            <img src="assets/img/portfolio/training_mentoring.png" class="img-fluid" alt="image-alt">
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 5-->
-                    <div class="col-sm-4 portfolio-item">
-                        <div class="portfolio-link" data-toggle="modal" data-target="#portfolioModal5">
-                            <div class="caption text-center vertical-center-row">
-                                <div class="caption-content img-centered vertical-center-row">
-                                	<h4>Building data science capacity</h4>
-                                	<p>Recruitment, scoping, management</p>
-                                </div>
-                            </div>
-                            <img src="assets/img/portfolio/building.png" class="img-fluid" alt="image-alt">
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 6-->
-                    <div class="col-sm-4 portfolio-item">
-                        <div class="portfolio-link" data-toggle="modal" data-target="#portfolioModal6">
-                            <div class="caption text-center vertical-center-row">
-                                <div class="caption-content img-centered vertical-center-row">
-                                	<h4>Community contributions</h4>
-                                	<p>Workshops, OSS contributions, community engagement</p>
-                                </div>
-                            </div>
-                            <img src="assets/img/portfolio/community_engagement.png" class="img-fluid" alt="image-alt">
-                        </div>
-                    </div>
-                </div>
+                <p>I’m always open to hearing about interesting projects, speaking opportunities and ideas.</p>
+                </p>
+                <a class="btn btn-primary btn-l" href="#contact"><i class="far fa-envelope mr-2"></i>Get in touch</a>
             </div>
-        </section>
-        <!-- Contact Section-->
-        <section class="page-section" id="contact">
-            <div class="container">
-                <!-- Contact Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Get in touch</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                </div>
-                <div class="divider-custom">
-                    <a class="btn btn-outline-light btn-social mx-1" href="mailto:benbatorsky@gmail.com">
-                        <i class="fas fa-envelope fa-2x" style="color:#2c3e50"></i></a>
-                    <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/bpben2">
-                        <i class="fab fa-twitter  fa-2x" style="color:#2c3e50"></i></a>
-                    <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/benjamin-batorsky/">
-                        <i class="fab fa-fw fa-linkedin-in  fa-2x" style="color:#2c3e50"></i></a>
-                    <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/bpben">
-                        <i class="fab fa-fw fa-github  fa-2x" style="color:#2c3e50"></i></a>
-                </div>
-                <!-- Contact Section Form-->
-        </section>
-        <!-- Footer-->
-        <footer class="footer text-center">
-            <div class="container">
-                <div class="row">
-                    <!-- Footer Location-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Location</h4>
-                        <p class="lead mb-0">Cambridge, MA</p>
-                    </div>
-                    <!-- Footer Social Icons-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
+        </div>
+    </section>
+</header>
 
+<!-- Portfolio Section-->
+<section class="page-section portfolio" id="portfolio">
+    <div class="container">
+        <!-- Portfolio Section Heading-->
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Selected work</h2>
+        <!-- Icon Divider-->
+        <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+        </div>
+        <!-- Portfolio Grid Items-->
+        <div class="row">
+            <!-- Portfolio Item 1-->
+            <div class="col-sm-4 portfolio-item">
+                <div class="portfolio-link" data-toggle="modal" data-target="#portfolioModal1">
+                    <div class="caption text-center vertical-center-row">
+                        <div class="caption-content img-centered vertical-center-row">
+                            <h4>Forecasting and prediction</h4>
+                            <p>Modeling, causal inference, risk evaluation</p>
+                        </div>
                     </div>
-                    <!-- Footer About Text-->
-                    <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">Credits</h4>
-                        <p class="lead mb-0">Template is based on <a href="http://startbootstrap.com">Freelancer Bootstrap theme</a>.</p>
-                        <p class="lead mb-0">Top image from <a href="http://www.freepik.com">kjpargeter / Freepik</a>.</p>
-                    </div>
+                    <img src="assets/img/portfolio/prediction.png" class="img-fluid" alt="image-alt">
                 </div>
             </div>
-        </footer>
-        <!-- Copyright Section-->
-        <section class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright © Benjamin Batorsky 2020</small></div>
-        </section>
-        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
-        <div class="scroll-to-top d-lg-none position-fixed">
-            <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a>
+            <!-- Portfolio Item 2-->
+            <div class="col-sm-4 portfolio-item">
+                <div class="portfolio-link" data-toggle="modal" data-target="#portfolioModal2">
+                    <div class="caption text-center vertical-center-row">
+                        <div class="caption-content img-centered vertical-center-row">
+                            <h4>Strategic analysis</h4>
+                            <p>Program evaluation, AI roadmaps</p>
+                        </div>
+                    </div>
+                    <img src="assets/img/portfolio/policy_analysis.png" class="img-fluid" alt="image-alt">
+                </div>
+            </div>
+            <!-- Portfolio Item 3-->
+            <div class="col-sm-4 portfolio-item">
+                <div class="portfolio-link" data-toggle="modal" data-target="#portfolioModal3">
+                    <div class="caption text-center vertical-center-row">
+                        <div class="caption-content img-centered vertical-center-row">
+                            <h4>Text analytics</h4>
+                            <p>Pipelines, extraction, generation</p>
+                        </div>
+                    </div>
+                    <img src="assets/img/portfolio/text.png" class="img-fluid" alt="image-alt">
+                </div>
+            </div>
+            <!-- Portfolio Item 4-->
+            <div class="col-sm-4 portfolio-item">
+                <div class="portfolio-link" data-toggle="modal" data-target="#portfolioModal4">
+                    <div class="caption text-center vertical-center-row">
+                        <div class="caption-content img-centered vertical-center-row">
+                            <h4>Training/Mentoring</h4>
+                            <p>Education, skill development, editing</p>
+                        </div>
+                    </div>
+                    <img src="assets/img/portfolio/training_mentoring.png" class="img-fluid" alt="image-alt">
+                </div>
+            </div>
+            <!-- Portfolio Item 5-->
+            <div class="col-sm-4 portfolio-item">
+                <div class="portfolio-link" data-toggle="modal" data-target="#portfolioModal5">
+                    <div class="caption text-center vertical-center-row">
+                        <div class="caption-content img-centered vertical-center-row">
+                            <h4>Building data science capacity</h4>
+                            <p>Recruitment, scoping, management</p>
+                        </div>
+                    </div>
+                    <img src="assets/img/portfolio/building.png" class="img-fluid" alt="image-alt">
+                </div>
+            </div>
+            <!-- Portfolio Item 6-->
+            <div class="col-sm-4 portfolio-item">
+                <div class="portfolio-link" data-toggle="modal" data-target="#portfolioModal6">
+                    <div class="caption text-center vertical-center-row">
+                        <div class="caption-content img-centered vertical-center-row">
+                            <h4>Community contributions</h4>
+                            <p>Workshops, OSS contributions, community engagement</p>
+                        </div>
+                    </div>
+                    <img src="assets/img/portfolio/community_engagement.png" class="img-fluid" alt="image-alt">
+                </div>
+            </div>
         </div>
-        <!-- About Modal-->
-        <div class="portfolio-modal modal fade" id="about" tabindex="-1" role="dialog" aria-labelledby="about" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">About me</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <img class="img-fluid" src="assets/img/me_face.png" alt="" style="max-height:400px;">
-                                    <p></p>
-                                    <form method="get" action="assets/BBatorsky_resume_05202020.pdf">
-                                        <button class="btn btn-primary btn-l">
-                                            <i class="fas fa-download fa-fw"></i>
-                                            Resume
-                                        </button>
-                                    </form>
-                                    <p class="mb-6">I’ve been working in data science since 2014 and exploring the stories in data my entire career.  I began as a student of comparative literature and history, exploring compositional techniques and how they track onto larger trends in their physical and intellectual environment.</p>
-                                    <p class="mb-6">An interest in measurement and evaluation led me to public health at Johns Hopkins, where I studied how the environment influences mental and physical health.  I carried out investigations of <a target="_blank" rel="noopener noreferrer" href=https://www.tandfonline.com/doi/abs/10.1080/03670244.2012.705732>food environments</a> and <a target="_blank" rel="noopener noreferrer" href=https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3816610/> evaluated interventions to promote healthy behavior</a>.
-                                    <p class="mb-6">I found exploring invention impact really interesting and pursued my PhD in Policy Analysis at the <a target="_blank" rel="noopener noreferrer" href=https://www.rand.org/>RAND Corporation</a>.  While at RAND, I worked on projects evaluating <a target="_blank" rel="noopener noreferrer" href=https://www.rand.org/content/dam/rand/pubs/research_reports/RR1200/RR1224/RAND_RR1224.pdf>infrastructure policies</a> and <a target="_blank" rel="noopener noreferrer" href=https://journals.sagepub.com/doi/abs/10.4278/ajhp.150210-QUAN-718>workplace health programs</a>.</p>
-                                    <p class="mb-6">At RAND, I began to explore datasets outside of those designed for the studies I was conducting (i.e. “real world” evidence).  I began using <a target="_blank" rel="noopener noreferrer" href=https://www.rwjf.org/en/cultureofhealth/about.html>social media data to investigate public discussion of health</a> and <a target="_blank" rel="noopener noreferrer" href=https://github.com/DerekKaknes/voter_karma>voter file data to score individual likelihood to vote</a>.  I found the wealth of data and open source technologies enabled deeper exploration and produced more <a target="_blank" rel="noopener noreferrer" href=https://github.com/bpben/crash-model>engaging data products</a>.</p>
-                                    <p class="mb-6">Since then, I’ve explored big questions like <a target="_blank" rel="noopener noreferrer" href=https://www.economist.com/leaders/2016/08/18/the-power-of-learning>which restaurants are the most risky</a>, <a target="_blank" rel="noopener noreferrer" href=https://thrivehive.com/press-media/answer-the-locals-the-most-asked-questions-from-your-prospective-customers/>what people want to know about their local businesses</a> and <a target="_blank" rel="noopener noreferrer" href=https://www.youtube.com/watch?v=2ym4fzPfraw>how to estimate customer budget from spend data</a>.</p>
-                                    <p class="mb-6">Throughout my career, I’ve participated in the community by <a target="_blank" rel="noopener noreferrer" href=https://www.meetup.com/PyData-Boston-Cambridge/>hosting speakers and workshops on open source topics</a>, <a target="_blank" rel="noopener noreferrer" href=https://github.com/bpben/crash-model>engaging in civic technology projects</a> and <a target="_blank" rel="noopener noreferrer" href=https://www.summer.harvard.edu/course-catalog/courses/text-analytics-and-natural-language-processing/34793>sharing my expertise in the area of Natural Language Processing</a>.</p>
-                                    <p class="mb-6">I tend to subscribe to the DJ Patil adage “move purposefully and fix things”.  I’ve built and led data science teams and helped others build out their capacity and scope their projects.  My experience has taught me that the most impactful data products are the ones that build on existing capacity.  In my view, no solution can be implemented without buy-in and no buy-in can be achieved without communication and trust.</p>
-                                    <p class="mb-6">I’m always open to hearing about interesting projects, speaking opportunities and ideas.</p>
-                                    <button class="btn btn-primary btn-l" href= data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
-                                </div>
+    </div>
+</section>
+<!-- Contact Section-->
+<section class="page-section" id="contact">
+    <div class="container">
+        <!-- Contact Section Heading-->
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Get in touch</h2>
+        <!-- Icon Divider-->
+        <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+        </div>
+        <div class="divider-custom">
+            <a class="btn btn-outline-light btn-social mx-1" href="mailto:benbatorsky@gmail.com">
+                <i class="fas fa-envelope fa-2x" style="color:#2c3e50"></i></a>
+            <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/bpben2">
+                <i class="fab fa-twitter  fa-2x" style="color:#2c3e50"></i></a>
+            <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/benjamin-batorsky/">
+                <i class="fab fa-fw fa-linkedin-in  fa-2x" style="color:#2c3e50"></i></a>
+            <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/bpben">
+                <i class="fab fa-fw fa-github  fa-2x" style="color:#2c3e50"></i></a>
+        </div>
+        <!-- Contact Section Form-->
+</section>
+<!-- Footer-->
+<footer class="footer text-center">
+    <div class="container">
+        <div class="row">
+            <!-- Footer Location-->
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <h4 class="text-uppercase mb-4">Location</h4>
+                <p class="lead mb-0">Cambridge, MA</p>
+            </div>
+            <!-- Footer Social Icons-->
+            <div class="col-lg-4 mb-5 mb-lg-0">
+
+            </div>
+            <!-- Footer About Text-->
+            <div class="col-lg-4">
+                <h4 class="text-uppercase mb-4">Credits</h4>
+                <p class="lead mb-0">Template is based on <a href="http://startbootstrap.com">Freelancer Bootstrap
+                    theme</a>.</p>
+                <p class="lead mb-0">Top image from <a href="http://www.freepik.com">kjpargeter / Freepik</a>.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Copyright Section-->
+<section class="copyright py-4 text-center text-white">
+    <div class="container"><small>Copyright © Benjamin Batorsky 2020</small></div>
+</section>
+<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+<div class="scroll-to-top d-lg-none position-fixed">
+    <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i
+            class="fa fa-chevron-up"></i></a>
+</div>
+<!-- About Modal-->
+<div class="portfolio-modal modal fade" id="about" tabindex="-1" role="dialog" aria-labelledby="about"
+     aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true"><i class="fas fa-times"></i></span>
+            </button>
+            <div class="modal-body text-center">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <!-- Portfolio Modal - Title-->
+                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">About me</h2>
+                            <!-- Icon Divider-->
+                            <div class="divider-custom">
+                                <div class="divider-custom-line"></div>
                             </div>
+                            <div class="container mt-5">
+                                <img class="img-fluid" src="assets/img/me_face.png" alt=""
+                                             style="max-height:300px;">
+                                        <form method="get" action="assets/BBatorsky_resume_051423.pdf">
+                                            <p></p>
+                                            <button class="btn btn-primary btn-l">
+                                                <i class="fas fa-id-card fa-fw"></i>
+                                                Resume
+                                            </button>
+                                        </form>
+                            </div>
+                            <div class="mb-6">
+                                <zero-md src="/assets/txts/about.md" no-shadow>
+                                    <template>
+                                        <link rel="stylesheet" href="style.css">
+                                    </template>
+                                </zero-md>
+                            </div>
+                            <button class="btn btn-primary btn-l" href=data-dismiss="modal"><i
+                                    class="fas fa-times fa-fw"></i>Close Window
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Portfolio Modals-->
-        <!-- Portfolio Modal 1-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Forecasting and prediction</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <img class="img-fluid" src="assets/img/portfolio/prediction.png" alt="" style="max-height:400px;">
-                                    <p class="mb-5">
-                                        I have worked on predictive modelling with limited data resources (<a href=https://github.com/Data4Democracy/crash-model>crash prediction from public data</a>), rare outcomes (website visitor conversion) and uncertain targets (<a href=https://bpben.github.io/2018/09/21/bayes-talk-slides/>marketing budget forecasting</a>).  My experience gives me an edge when it comes to building predictive data products.
-                                    </p>
-                                    <button class="btn btn-primary btn-l" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
-                                </div>
+    </div>
+</div>
+<!-- Portfolio Modals-->
+<!-- Portfolio Modal 1-->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog"
+     aria-labelledby="portfolioModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true"><i class="fas fa-times"></i></span>
+            </button>
+            <div class="modal-body text-center">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <!-- Portfolio Modal - Title-->
+                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Forecasting and
+                                prediction</h2>
+                            <!-- Icon Divider-->
+                            <div class="divider-custom">
+                                <div class="divider-custom-line"></div>
                             </div>
+                            <img class="img-fluid" src="assets/img/portfolio/prediction.png" alt=""
+                                 style="max-height:400px;">
+                            <p class="mb-5">
+                                I have worked on predictive modelling with limited data resources (<a
+                                    href=https://github.com/Data4Democracy/crash-model>crash prediction from public
+                                data</a>), rare outcomes (website visitor conversion) and uncertain targets (<a
+                                    href=https://bpben.github.io/2018/09/21/bayes-talk-slides/>marketing budget
+                                forecasting</a>). My experience gives me an edge when it comes to building predictive
+                                data products.
+                            </p>
+                            <button class="btn btn-primary btn-l" href="#" data-dismiss="modal"><i
+                                    class="fas fa-times fa-fw"></i>Close Window
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Portfolio Modal 2-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Policy analysis</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <img class="img-fluid" src="assets/img/portfolio/policy_analysis.png" alt="" style="max-height:400px;">
-                                    <p class="mb-5">
-                                        I obtained my PhD from the RAND Corporation while working on projects related to health, infrastructure and public policy.  I am formally trained in econometrics and have applied these methods to assess <a href=https://github.com/bpben/wellness>health programs</a> and <a href=https://docs.google.com/presentation/d/123Q2O0hNYb6bhFhBq7hH8ffSRqTWCcz1q5B3MjsTKg8>risk</a>.
-                                    </p>
-                                    <button class="btn btn-primary btn-l" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
-                                </div>
+    </div>
+</div>
+<!-- Portfolio Modal 2-->
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog"
+     aria-labelledby="portfolioModal2Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true"><i class="fas fa-times"></i></span>
+            </button>
+            <div class="modal-body text-center">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <!-- Portfolio Modal - Title-->
+                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Strategic analysis</h2>
+                            <!-- Icon Divider-->
+                            <div class="divider-custom">
+                                <div class="divider-custom-line"></div>
                             </div>
+                            <img class="img-fluid" src="assets/img/portfolio/policy_analysis.png" alt=""
+                                 style="max-height:300px;">
+                            <p></p>
+                            <p class="mb-5">
+                                <zero-md src="/assets/txts/strategy.md" no-shadow>
+                                    <template>
+                                        <link rel="stylesheet" href="style.css">
+                                    </template>
+                                </zero-md>
+                            </p>
+                            <button class="btn btn-primary btn-l" href="#" data-dismiss="modal"><i
+                                    class="fas fa-times fa-fw"></i>Close Window
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Portfolio Modal 3-->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Text analytics</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                     <img class="img-fluid" src="assets/img/portfolio/text.png" alt="" style="max-height:400px;">
-                                    <p class="mb-5">
-                                        I have extensive experience leveraging text data in analytics products for academic research, marketing and risk assessment.  I have also <a href=https://docs.google.com/presentation/d/16tyMFRJEuivj9r7G9ar33u052WakxC2fBSZmNVdl99I/edit?usp=sharing>given talks</a> and <a href=https://www.summer.harvard.edu/course-catalog/courses/text-analytics-and-natural-language-processing/34793>taught courses</a> on the subject.
-                                    </p>
-                                    <button class="btn btn-primary btn-l" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
-                                </div>
+    </div>
+</div>
+<!-- Portfolio Modal 3-->
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog"
+     aria-labelledby="portfolioModal3Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true"><i class="fas fa-times"></i></span>
+            </button>
+            <div class="modal-body text-center">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <!-- Portfolio Modal - Title-->
+                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Text analytics</h2>
+                            <!-- Icon Divider-->
+                            <div class="divider-custom">
+                                <div class="divider-custom-line"></div>
                             </div>
+                            <img class="img-fluid" src="assets/img/portfolio/text.png" alt="" style="max-height:400px;">
+                            <p class="mb-5">
+                                I have extensive experience leveraging text data in analytics products for academic
+                                research, marketing and risk assessment. I have also <a
+                                    href=https://docs.google.com/presentation/d/16tyMFRJEuivj9r7G9ar33u052WakxC2fBSZmNVdl99I/edit?usp=sharing>given
+                                talks</a> and <a
+                                    href=https://www.summer.harvard.edu/course-catalog/courses/text-analytics-and-natural-language-processing/34793>taught
+                                courses</a> on the subject.
+                            </p>
+                            <button class="btn btn-primary btn-l" href="#" data-dismiss="modal"><i
+                                    class="fas fa-times fa-fw"></i>Close Window
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Portfolio Modal 4-->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Training/Mentoring</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                     <img class="img-fluid" src="assets/img/portfolio/training_mentoring.png" alt="" style="max-height:400px;">
-                                    <p class="mb-5">
-                                        I find sharing my experience with others to be extremely rewarding.  I have constructed and taught <a href=https://www.summer.harvard.edu/course-catalog/courses/text-analytics-and-natural-language-processing/34793>courses</a> and <a href=https://www.youtube.com/watch?v=bAdHn17IyqA>workshops</a> throughout my career and provided mentorship to coworkers and the <a href=https://www.meetup.com/PyData-Boston-Cambridge/>community</a>.
-                                    </p>
-                                    <button class="btn btn-primary btn-l" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
-                                </div>
+    </div>
+</div>
+<!-- Portfolio Modal 4-->
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog"
+     aria-labelledby="portfolioModal4Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true"><i class="fas fa-times"></i></span>
+            </button>
+            <div class="modal-body text-center">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <!-- Portfolio Modal - Title-->
+                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Training/Mentoring</h2>
+                            <!-- Icon Divider-->
+                            <div class="divider-custom">
+                                <div class="divider-custom-line"></div>
                             </div>
+                            <img class="img-fluid" src="assets/img/portfolio/training_mentoring.png" alt=""
+                                 style="max-height:400px;">
+                            <p class="mb-5">
+                                I find sharing my experience with others to be extremely rewarding. I have constructed
+                                and taught <a
+                                    href=https://www.summer.harvard.edu/course-catalog/courses/text-analytics-and-natural-language-processing/34793>courses</a>
+                                and <a href=https://www.youtube.com/watch?v=bAdHn17IyqA>workshops</a> throughout my
+                                career and provided mentorship to coworkers and the <a
+                                    href=https://www.meetup.com/PyData-Boston-Cambridge/>community</a>.
+                            </p>
+                            <button class="btn btn-primary btn-l" href="#" data-dismiss="modal"><i
+                                    class="fas fa-times fa-fw"></i>Close Window
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Portfolio Modal 5-->
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Building Data Science capacity</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                     <img class="img-fluid" src="assets/img/portfolio/building.png" alt="" style="max-height:400px;">
-                                    <p class="mb-5">
-                                        I have built three data science teams from the ground up and have worked as a consultant helping companies build and scope their data science practice.  These groups continue to deliver impact and expand on the structure that we founded.
-                                    </p>
-                                    <button class="btn btn-primary btn-l" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
-                                </div>
+    </div>
+</div>
+<!-- Portfolio Modal 5-->
+<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog"
+     aria-labelledby="portfolioModal5Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true"><i class="fas fa-times"></i></span>
+            </button>
+            <div class="modal-body text-center">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <!-- Portfolio Modal - Title-->
+                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Building Data Science
+                                capacity</h2>
+                            <!-- Icon Divider-->
+                            <div class="divider-custom">
+                                <div class="divider-custom-line"></div>
                             </div>
+                            <img class="img-fluid" src="assets/img/portfolio/building.png" alt=""
+                                 style="max-height:400px;">
+                            <p class="mb-5">
+                                I have built three data science teams from the ground up and have worked as a consultant
+                                helping companies build and scope their data science practice. These groups continue to
+                                deliver impact and expand on the structure that we founded.
+                            </p>
+                            <button class="btn btn-primary btn-l" href="#" data-dismiss="modal"><i
+                                    class="fas fa-times fa-fw"></i>Close Window
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Portfolio Modal 6-->
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-labelledby="portfolioModal6Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Community contributions</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                     <img class="img-fluid" src="assets/img/portfolio/community_engagement.png" alt="" style="max-height:400px;">
-                                    <p class="mb-5">
-                                        I maintain a close engagement with the tech community by organizing <a href=https://www.meetup.com/PyData-Boston-Cambridge/>meetups</a>, contributing to <a href=https://github.com/Data4Democracy/crash-model>social good projects</a> and regularly posting projects and interesting material to <a href=https://bpben.github.io/>my blog</a>.
-                                    </p>
-                                    <button class="btn btn-primary btn-l" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
-                                </div>
+    </div>
+</div>
+<!-- Portfolio Modal 6-->
+<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog"
+     aria-labelledby="portfolioModal6Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true"><i class="fas fa-times"></i></span>
+            </button>
+            <div class="modal-body text-center">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <!-- Portfolio Modal - Title-->
+                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Community
+                                contributions</h2>
+                            <!-- Icon Divider-->
+                            <div class="divider-custom">
+                                <div class="divider-custom-line"></div>
                             </div>
+                            <img class="img-fluid" src="assets/img/portfolio/community_engagement.png" alt=""
+                                 style="max-height:400px;">
+                            <p class="mb-5">
+                                I maintain a close engagement with the tech community by organizing <a
+                                    href=https://www.meetup.com/PyData-Boston-Cambridge/>meetups</a>, contributing to <a
+                                    href=https://github.com/Data4Democracy/crash-model>social good projects</a> and
+                                regularly posting projects and interesting material to <a href=https://bpben.github.io/>my
+                                blog</a>.
+                            </p>
+                            <button class="btn btn-primary btn-l" href="#" data-dismiss="modal"><i
+                                    class="fas fa-times fa-fw"></i>Close Window
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <!-- Third party plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <!-- Contact form JS-->
-        <script src="assets/mail/jqBootstrapValidation.js"></script>
-        <script src="assets/mail/contact_me.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+    </div>
+</div>
+<!-- Bootstrap core JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+<!-- Third party plugin JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<!-- Contact form JS-->
+<script src="assets/mail/jqBootstrapValidation.js"></script>
+<script src="assets/mail/contact_me.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+</body>
 </html>

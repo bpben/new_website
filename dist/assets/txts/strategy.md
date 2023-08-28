@@ -1,0 +1,3 @@
+I obtained my PhD from the RAND Corporation, focusing on economic analysis and the impact of different strategies.  I’ve worked in various settings to prioritize AI initiatives based on qualitative and quantitative measurement.  The result has been actionable strategies to derive higher ROI from data via a defined set of projects.  I am formally trained in econometrics and have applied
+                                these methods to assess <a href=https://github.com/bpben/wellness>health programs</a>
+                                and <a href=https://docs.google.com/presentation/d/123Q2O0hNYb6bhFhBq7hH8ffSRqTWCcz1q5B3MjsTKg8>risk</a>.
