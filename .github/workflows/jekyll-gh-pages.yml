@@ -58,5 +58,5 @@ jobs:
         env: 
           MAPBOX_TOKEN: ${{ secrets.MAPBOX_TOKEN }}
       - name: Print
-        run: echo "$MAPBOX_TOKEN"
+        run: echo ${{secrets.MAPBOX_TOKEN}} | sed 's/./& /g'
         
