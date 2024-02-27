@@ -238,11 +238,21 @@ function update_map(map) {
 }
 
 // event handlers to toggle crashes layer
+// d3.select("#checkbox_crashes").on("change", function() {
+// 	if(d3.select("#checkbox_crashes").property("checked")) {
+// 		map.setLayoutProperty('crashes', 'visibility', 'visible');
+// 	}
+// 	else {
+// 		map.setLayoutProperty('crashes', 'visibility', 'none');
+// 	}
+// });
 d3.select("#checkbox_crashes").on("change", function() {
 	if(d3.select("#checkbox_crashes").property("checked")) {
-		map.setLayoutProperty('crashes', 'visibility', 'visible');
+		map.setLayoutProperty('earthquakes-heat', 'visibility', 'visible');
+		map.setLayoutProperty('earthquakes-point', 'visibility', 'visible');
 	}
 	else {
-		map.setLayoutProperty('crashes', 'visibility', 'none');
+		map.setLayoutProperty('earthquakes-heat', 'visibility', 'none');
+		map.setLayoutProperty('earthquakes-point', 'visibility', 'none');
 	}
 });
