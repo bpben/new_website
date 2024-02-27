@@ -191,7 +191,10 @@
                 // insert city speed unit
                 $('#speed_unit').text(city.speed_unit);
 		// create base map
-		mapboxgl.accessToken = process.env.MAPBOX_SECRET;
+		const mapbox_token = process.env.MAPBOX_SECRET
+		mapboxgl.accessToken = mapbox_token
+		
+		// "pk.eyJ1IjoiYnBiZW4iLCJhIjoiY2pqeG04YmxkMTBucDNxbzZ5cWhleTQ3MSJ9.rsAEFYsZTpG91wCoAYlwrg";
 
 		var map = new mapboxgl.Map({
 		  container: 'city_map',
