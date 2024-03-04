@@ -237,22 +237,13 @@ function update_map(map) {
 	map.setFilter('predictions', new_filter);
 }
 
-// event handlers to toggle crashes layer
-// d3.select("#checkbox_crashes").on("change", function() {
-// 	if(d3.select("#checkbox_crashes").property("checked")) {
-// 		map.setLayoutProperty('crashes', 'visibility', 'visible');
-// 	}
-// 	else {
-// 		map.setLayoutProperty('crashes', 'visibility', 'none');
-// 	}
-// });
 d3.select("#checkbox_crashes").on("change", function() {
 	if(d3.select("#checkbox_crashes").property("checked")) {
-		map.setLayoutProperty('earthquakes-heat', 'visibility', 'visible');
-		map.setLayoutProperty('earthquakes-point', 'visibility', 'visible');
+		map.setLayoutProperty('crashes-heat', 'visibility', 'visible');
+		map.setLayoutProperty('crashes-point', 'visibility', 'visible');
 	}
 	else {
-		map.setLayoutProperty('earthquakes-heat', 'visibility', 'none');
-		map.setLayoutProperty('earthquakes-point', 'visibility', 'none');
+		map.setLayoutProperty('crashes-heat', 'visibility', 'none');
+		map.setLayoutProperty('crashes-point', 'visibility', 'none');
 	}
 });
